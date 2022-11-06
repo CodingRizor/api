@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+//import Api from './Components/Api';
+//import Api3 from './Components/Api3';
+// import RandomApi from './Components/RandomApi';
+//import Api2 from './Components/Api2';
+import Quiz from './Components/Quiz';
+// import Task2 from './Components/Taks2';
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Api2></Api2> */}
+      {/* <RandomApi></RandomApi> */}
+      {/* <Api></Api> */}
+      {/* <Api3></Api3> */}
+      <Quiz></Quiz>
+      {/* <Task2></Task2> */}
     </div>
   );
 }
